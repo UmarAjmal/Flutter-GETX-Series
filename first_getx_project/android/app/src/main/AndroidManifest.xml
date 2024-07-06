@@ -2,7 +2,7 @@
     <application
         android:label="first_getx_project"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/one">
         <activity
             android:name=".MainActivity"
             android:exported="true"
