@@ -70,7 +70,7 @@ class _HomeState extends State<Home> {
                             leading: const Icon(Icons.light_mode),
                             title: const Text('Light Theme'),
                             onTap: () {
-                              Get.changeThemeMode(ThemeMode.dark);
+                              Get.changeTheme(ThemeData.light());
                               Get.back();
                             },
                           ),
@@ -80,7 +80,7 @@ class _HomeState extends State<Home> {
                             leading: const Icon(Icons.dark_mode),
                             title: const Text('Dark Theme'),
                             onTap: () {
-                              Get.changeThemeMode(ThemeMode.light);
+                              Get.changeTheme(ThemeData.dark());
                               Get.back();
                             },
                           ),
